@@ -1,0 +1,104 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+form {
+    width: 100%;
+    margin-left: 20px;
+    box-sizing: border-box;
+    position: absolute;
+    margin-top: 20px;
+}
+
+form .title-form {
+    text-align: center;
+    padding: 5px 10px;
+}
+
+form td {
+    padding: 5px 10px;
+}
+
+table input {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+table button {
+    cursor: pointer;
+    padding: 5px 5px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    float: right;
+}
+
+.table-contribuyentes{
+    float: right;
+    position: relative;
+    margin-right: 40px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+.table-contribuyentes .title-form {
+    text-align: center;
+    padding: 5px 10px;
+}
+.table-contribuyentes td {
+    text-align: left;
+    padding: 5px 5px;
+    font-size: 14px;
+}
+
+.table-contribuyentes button {
+    font-size: 14px;
+    padding: 2px 2px;
+    cursor: pointer;
+    margin: 2px 2px;
+    display: inline-block;
+}
+.form-search {
+    border: 1px solid black;
+    padding: 5px 5px;
+    position: relative;
+    max-width: 400px;
+}
+.form-search button {
+    cursor: pointer;
+    padding: 4px 4px;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+}
+
+.form-search input {
+    width: 80%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.results {
+    margin-top: 400px;
+    margin-left: 40px;
+    max-width: 500px;
+    padding: 5px 5px;
+}
+.results li{
+    margin-top: 10px;
+    list-style: none;
+}
+.cuadro {
+    border: 1px solid black;
+    margin-left: 700px;
+    margin-top: 10px;
+}
+h5 {
+    margin-top: 400px;
+    margin-left: 600px;
+}
